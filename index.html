@@ -27,8 +27,8 @@
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 300px;
-  height: 180px;
+  width: 400px;
+  height: 250px;
   background-color: rgb(245, 212, 28);;
   color: #fff;
   text-align: center;
@@ -396,12 +396,13 @@ background: radial-gradient(circle at 100px 100px, #fff, #000);
          <div class="popup" onclick="myFunction()" style="margin-left: 40%;font-size: larger;margin-bottom: -20%;
          color: rgb(245, 212, 28);">Restaurant Video
             <span class="popuptext" id="myPopup">
-            <video width="280" height="160" controls>
+            <video width="380" height="210" controls>
             <source src="video/demovideo.mp4" type="video/mp4">
-            <!-- <source src="video/demovideo.mp4" type="video/ogg"> -->
-            Your browser does not support the video tag.
+               <source src="video/demovideo.ogg" type="video/ogg">
+            Your browser does not support the video, try another browser.
           </video>
           <br>
+          </p><i class="fa fa-close"></i>
             </span>
           </div>
           <script>
