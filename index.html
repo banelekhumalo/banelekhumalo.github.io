@@ -402,7 +402,7 @@ background: radial-gradient(circle at 100px 100px, #fff, #000);
             Your browser does not support the video, try another browser.
           </video>
           <br>
-          <i class="fa fa-close"></i>
+          <i class="fa fa-close" onclick="pauseVid()"></i>
             </span>
           </div>
           <script>
@@ -411,6 +411,9 @@ background: radial-gradient(circle at 100px 100px, #fff, #000);
                var popup = document.getElementById("myPopup");
                popup.classList.toggle("show");
              }
+             function pauseVid() {
+                  vid.pause();
+               }
              </script>
           <!-- -------------------------------- -->
        <div id="earth" style="margin-top: -4px;">
@@ -433,7 +436,12 @@ background: radial-gradient(circle at 100px 100px, #fff, #000);
 
    <section id="cv">
       <div class="container text-center">
-         <h4>RESUME</h4>
+         <br>
+         <h4><p style="color: rgb(245, 212, 28);">Please click the image template to see the mimic of my resume</p>
+           
+            <i class="fa fa-hand-point-down" style="width: 5px;color: red;"></i>
+         </h4>
+         
          <!-- <a href="banele.html"><i class="fa fa-arrow-right" style="color: rgb(245, 212, 28);width: 300px;height: 300px;font-size: xx-large;"></i></a> -->
          <a href="banele.html"><img src="images/resume.jpg"></a>
       </div>
